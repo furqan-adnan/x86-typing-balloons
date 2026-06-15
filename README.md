@@ -4,6 +4,16 @@ A real-time, low-level arcade typing game engineered from the ground up in 16-bi
 
 ---
 
+###  Project Visuals
+
+![Coal Analysis Overview](assets/Coal.png)
+
+![Detailed Data Visualization](assets/coal-2.png)
+
+
+
+
+
 ##  Core System Features
 
 * **Asynchronous Multi-Interrupt Engine:** Bypasses blocking BIOS/DOS polling loops by intercepting the Hardware Timer (`INT 08h`) and Keyboard (`INT 09h`) vectors to decouple background processing from frame loops.
